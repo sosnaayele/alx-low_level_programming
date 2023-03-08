@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- * factorial - prints factorial of a number.
- * @n: number.
+ * _pow_recursion - return power of numbers.
+ * @x: number to be powered.
+ * @y: power number.
  * Return: integer.
  */
 
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-	if (n < 0)
+	if (y < 0)
 	{
 		return (-1);
 	}
-
-	if (n == 0)
+	if (y == 0)
 	{
 		return (1);
 	}
 
-	return (n * factorial(n - 1));
-
+	return (x * _pow_recursion(x, y - 1));
 }
