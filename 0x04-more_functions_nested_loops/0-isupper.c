@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _isupper - check for upper case latter
+ * _isupper - checks for upper case latter
  * @c: character to check
  *
- * Retun:0 or  1
+ * Return: 0 or 1
  */
+
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
