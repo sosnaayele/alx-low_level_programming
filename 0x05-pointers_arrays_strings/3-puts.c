@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * put_char - print a string
+ * _puts - print a string
  * @str: char arrayt string type
  * description : can only use _putchar
  */
